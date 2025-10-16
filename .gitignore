@@ -1,0 +1,67 @@
+# AI Context System
+
+# 环境变量
+.env.local
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+/frontend/build
+/mcp-server/dist
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+ai_context*.db
+
+# 日志
+logs/
+*.log
+
+# 上传文件
+uploads/
+tmp/
+temp/
+
+# 向量数据库
+chroma_data/
+test_chroma_data/
+
+# 图数据库
+neo4j-data/
+
+# 图谱数据
+graph_data/
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 备份
+*.bak
+*.backup
+
+# 密钥文件
+*.pem
+*.key
+*.crt
